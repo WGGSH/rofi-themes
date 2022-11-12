@@ -12,10 +12,12 @@ configuration {
 }
 
 * {
-        background-color:           #222d32;
+        /* background-color:           #222d32; */
+        background-color:           #29353B;
         text-color:                 #ffffff;
 
-        accent-color:               #00bcd4;
+        /* accent-color:               #00bcd4;*/
+        accent-color:               #16A085;
         accent2-color:              #4db6ac;
         hover-color:                #39454b;
         urgent-color:               #ff5252;
@@ -35,12 +37,13 @@ configuration {
         active-foreground:          @text-color;
         selected-active-background: @hover-color;
         active-background:          @accent-color;
+        font: "Hiragino Kado Gothic ProN W6 16";
 }
 
 #window {
         anchor:   west;
         location: west;
-        width:    384px;
+        width:    584px;
         height:   100%;
 }
 
